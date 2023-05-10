@@ -1,0 +1,161 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: 'Barlow', sans-serif;
+  background-color: hsl(210, 46%, 95%);
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-items: center;
+}
+
+.testimonial-grid-container {
+  padding: 10% 3%;
+}
+
+.testimonial-1 {
+  background-color: hsl(263, 55%, 52%);
+  color: hsl(0, 0%, 100%);
+  border-radius: 5px;
+  box-shadow: 24px 28px 55px -39px rgba(0,0,0,0.3);
+}
+
+.testimonial-2 {
+  background-color: hsl(217, 19%, 35%);
+  color: hsl(0, 0%, 100%);
+  border-radius: 5px;
+  box-shadow: 24px 28px 55px -39px rgba(0,0,0,0.3);
+}
+
+.testimonial-3 {
+  background-color: hsl(0, 0%, 100%);
+  border-radius: 5px;
+  box-shadow: 24px 28px 55px -39px rgba(0,0,0,0.3);
+}
+
+.testimonial-4 {
+  background-color: hsl(219, 29%, 14%);
+  color: hsl(0, 0%, 100%);
+  border-radius: 5px;
+  box-shadow: 24px 28px 55px -39px rgba(0,0,0,0.3);
+}
+
+.testimonial-5 {
+  background-color: hsl(0, 0%, 100%);
+  border-radius: 5px;
+  box-shadow: 24px 28px 55px -39px rgba(0,0,0,0.3);
+}
+
+.main-left .grid-item {
+  margin-bottom: 20px;
+}
+
+.grid-item {
+  padding: 25px;
+}
+
+.testimonial-top {
+  display: flex;
+  align-items: center;
+  margin-bottom: 19px;
+}
+
+.testimonial-top img {
+  width: 28px;
+  border-radius: 50%;
+  margin-right: 15px;
+}
+
+.grid-item h1 {
+  margin-bottom: 19px;
+  font-size: 0.9rem;
+}
+
+.testimonial-1 h1, .testimonial-2 h1, .testimonial-4 h1 {
+  opacity: 0.9;
+}
+
+.testimonial-3 h1, .testimonial-5 h1 {
+  opacity: 0.7;
+}
+
+.testimonial-writer-name {
+  font-size: 0.7rem;
+  font-weight: 600;
+  margin-bottom: 3px;
+  opacity: 0.72;
+}
+
+.testimonial-writer-type {
+  font-size: 0.58rem;
+  opacity: 0.5;
+}
+
+.testimonial-content {
+  font-size: 0.66rem;
+  opacity: 0.5;
+  line-height: 0.9rem;
+}
+
+@media (min-width: 576px) {
+
+    .testimonial-grid-container {
+        display: flex;
+        max-width: 980px;
+        margin: auto;
+        padding: 40px 20px 30px 20px;
+    }
+
+    .main-left .grid-item {
+      margin-bottom: 0;
+    }
+
+    .testimonial-5 {
+      flex-basis: 23%;
+      margin-left: 10px;
+    }
+
+    .main-left {
+      display: flex;
+      flex-direction: column;
+      flex-basis: 77%;
+      margin-right: 10px;
+    }
+
+    .main-left-top {
+      display: flex;
+      flex-basis: 50%;
+      margin-bottom: 9px;
+    }
+
+    .main-left-bottom {
+      display: flex;
+      flex-basis: 50%;
+      margin-top: 9px;
+    }
+
+    .testimonial-1 {
+      flex-basis: 69%;
+      margin-right: 10px;
+    }
+
+    .testimonial-2 {
+      flex-basis: 31%;
+      margin-left: 10px;
+    }
+
+    .testimonial-3 {
+      flex-basis: 31%;
+      margin-right: 10px;
+    }
+
+    .testimonial-4 {
+      flex-basis: 69%;
+      margin-left: 10px;
+    }
+}
