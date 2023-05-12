@@ -49,7 +49,7 @@ I learned how to use Flexbox to create the layout that was needed. Moreover, I u
 
 ### Continued development
 
-I want to focus on CSS Grid because because it goes hand-in-hand with CSS Grid.
+I want to focus on CSS Grid because because it goes hand-in-hand with Flexbox.
 
 ### Useful resources
 
